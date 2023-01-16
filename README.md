@@ -2,8 +2,8 @@ This is working config with kernel 4.19.269 (based on pc_x86_64_bios_defconfig)
 
 To use
 
-git clone --recurse-submodules -j8 https://github.com/AndreiCherniaev/MU_tion.git
-cd 
+git clone --recurse-submodules -j8 https://github.com/AndreiCherniaev/buildroot-pc_x86_bios_defconfig
+cd buildroot-pc_x86_bios_defconfig
 make clean -C buildroot
 make BR2_EXTERNAL=${MyBaseDir}/my_external_tree -C buildroot pc_x86_bios_defconfig
 make -C buildroot

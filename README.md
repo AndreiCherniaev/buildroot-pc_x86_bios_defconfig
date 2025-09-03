@@ -1,4 +1,4 @@
-This is working config with kernel 4.19.269 (based on pc_x86_64_bios_defconfig)
+How to build Linux image using buildroot for x86 with Linux kernel 4.19.269 (based on [pc_x86_64_bios_defconfig](https://gitlab.com/buildroot.org/buildroot/-/blob/2025.05/configs/pc_x86_64_bios_defconfig))
 
 To use
 ```
